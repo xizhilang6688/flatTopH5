@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html class=""> <!-- add lowPhone -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>平顶之上</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/lowPhone.css"> -->
+    <link rel="stylesheet" href="css/bear.css">
+    <link rel="stylesheet" href="css/valley.css">
+    <link rel="stylesheet" href="css/seed.css">
+    <link rel="stylesheet" href="css/snake.css">
+    <link rel="stylesheet" href="css/thunder.css">
+    <link rel="stylesheet" href="css/boating.css">
+    <link rel="stylesheet" href="css/chef.css">
+ 
+</head>
+<body class="animal-animations-on">
+    <div id="animalchanger" class="bear">
+        <div class="level-one">
+             <div class="wrap left-to-right">
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+                <div class="shard-wrap"><div class="shard"></div></div>
+
+                
+                        
+                <div class="shadow"></div>
+                        
+            </div> 
+
+        </div>
+
+        <div class="title">
+            <div class="triangle"></div>
+            <div class="triangle"></div>
+            <div class="triangle"></div>
+            <div class="triangle"></div>
+            <div class="triangle"></div>
+            <div class="triangle"></div>
+            <div class="triangle"></div>
+            <div class="titleNum num1"></div>
+            <!-- 切换class  num2 num3 num4 -->
+        </div>
+
+        <div class="answerList">
+            <h1>你在森林独行突然遇到一只黑熊，你该怎么办？</h1>
+            <ul>
+                <li class="current">
+                    <span class="abcd">A.</span>
+                    <p>赶紧跑！跑的比刘翔还快</p>
+                    <span class="check" id="check"></span>
+                </li>
+                <li>
+                    <span  class="abcd">B.</span>
+                    <p>立马倒地装死，一动不动</p>
+                    <span class="check"></span>
+                </li>
+                <li>
+                    <span class="abcd">C.</span>
+                    <p>和它说话，让熊知道你无恶意</p>
+                    <span class="check"></span>
+                </li>
+                <li>
+                    <span class="abcd">D.</span>
+                    <p>仍过去一些食物，然后慢慢撤退退</p>
+                    <span class="check"></span>
+                </li>
+            </ul>
+
+        </div>
+        
+
+        <div class="changePanel"></div>
+        <div class="changePanelinner"></div>
+
+    </div>
+    <div class="songBox">
+        <span class="open" ></span>
+        <span class="close" ></span>
+    </div>
+    <div class="countDay">
+        <div class="inner">
+        <img src="http://mat1.gtimg.com/v/h5/we15/images/jisuan.gif" alt="" width="130">
+        <h4>生存天数计算中...</h4>
+        </div>
+    </div>
+    <div class="loadingAni">
+       <div class="inner">
+        <div class="fengche">
+            <b class="box box1"></b><b class="box box2"></b><b class="box box3"></b><b class="box box4"></b>
+        </div>
+        <h4>能量加载100%</h4>
+        </div> 
+
+    </div>
+
+    <script src="js/zepto.js"></script>
+    <script src="js/touch.js"></script>
+    <audio id="audioMusic" src="music/bear.mp3" autoplay="autoplay" ></audio>
+
+    <script>
+(function () {
+
+    
+var bd = $(document.body);
+var myAideo = document.getElementById("audioMusic");
+window.onload = animalStates;
+ function animalStates(){  
+    bd.removeClass("state-four");
+    setTimeout(function(){bd.addClass("state-two")},100);
+    setTimeout(function(){bd.removeClass("state-two");bd.addClass("state-three")},1100);
+    setTimeout(function(){bd.removeClass("state-three");bd.addClass("state-four")},2000)
+}
+setInterval(animalStates,3000)
+function animalStatesShimmer(){
+    setInterval(function(){
+      setTimeout(function(){bd.addClass("shimmer")},1000),
+      setTimeout(function(){bd.removeClass("shimmer")},2520)},3520)
+  }
+ 
+  animalStatesShimmer()
+
+  function sizeshards(){
+      var t=$(window).width(),
+          e=.7*t,
+          a=-1*(t/2),
+          n=-1*(e/2)-0;
+        $(".wrap").css({width:t,height:e,"margin-top":n,"margin-left":a})
+          }
+
+    sizeshards();
+
+var animalArr = ["bear","bearTwo","valley","valleyTwo","seed","seedTwo","snake","snakeTwo","thunder","thunderTwo","boating","boatingTwo","chef","chefTwo"];
+
+var n=0,
+    L=animalArr.length;
+
+function swipeUpPanel() {
+
+if(n<L-1){
+    n++;
+}
+else{
+    n=0;
+    $("#animalchanger").addClass(animalArr[n])
+}
+
+$("#animalchanger").removeClass(animalArr[n-1]);
+$("#animalchanger").addClass(animalArr[n]);
+if(n%2==0){
+myAideo.src = "music/"+animalArr[n]+".mp3";
+}
+
+if(n%2>0){
+    $(".answerList").css({top:$(window).height()*0.38});
+    $(".title").css({bottom:$(window).height()*0.6});
+}
+else{
+    $(".answerList").css({top:$(window).height()*0.72});
+    $(".title").css({bottom:$(window).height()*.25});
+}
+
+}
+
+$("#animalchanger").on("click",swipeUpPanel);
+
+$(".title").css({width:Math.round($(window).width()*.340625),height:Math.round($(window).width()*.340625*.5)});
+$(".title").css({bottom:$(window).height()*.25});
+
+var adplay = {
+    init : function(){
+
+        $(".songBox .open").bind("click",function(){
+            $(".songBox .open").hide();
+            $(".songBox .close").show();
+            myAideo.play();
+        })
+        $(".songBox .close").bind("click",function(){
+            $(".songBox .close").hide();
+            $(".songBox .open").show();
+            myAideo.pause();
+        })
+           
+    }
+}
+adplay.init();
+
+  })();
+
+
+    </script>
+</body>
+</html>
