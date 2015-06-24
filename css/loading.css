@@ -1,0 +1,280 @@
+.loadingPgae{width: 100%;height: 100%; background:#deec9d url(http://mat1.gtimg.com/v/h5/we15/images/loadingBg.jpg) left bottom no-repeat; background-size: 100% auto; position: absolute;left: 0; top:0; z-index: 12;}
+
+.animalfigure{}
+.animalfigure .ufo{width: 55px;height: 30px; background: url(http://mat1.gtimg.com/v/h5/we15/images/icon1.png) no-repeat; background-size: 100%; position: absolute;left: 33.3%; top:12px; z-index: 10;
+    -webkit-transform: translate3d(-200px,-20px,0px);}
+.loadingPgae.animate .animalfigure .ufo{-webkit-transition: 1s;-moz-transition: 1s;transition: 1s;-webkit-transform: translate3d(0px,0px,0px);}
+.loadingPgae h1{width: 100%;height: 44px; line-height: 44px; text-align: center; font-size: 23px; color: #fff;position: absolute; left: 0%;  bottom: 22%;-webkit-transform: translate3d(-500px,0px,0px);}
+
+.loadingPgae.animate h1{
+-webkit-transition: 0.7s;
+-moz-transition: 0.7s;
+transition: 0.7s;-webkit-transform: translate3d(0px,0px,0px);}
+.loadingPgae .startBtn{
+    width: 166px;height: 44px; background: url(http://mat1.gtimg.com/v/h5/we15/images/button.png) no-repeat; background-size: 100%;
+    line-height: 44px; text-align: center; font-size: 23px; color: #fff;
+    position: absolute; left: 50%; margin-left: -83px; bottom: 9%;
+    -webkit-transform: translate3d(1500px,0px,0px);
+}
+.loadingPgae.animate .startBtn{
+-webkit-transition: 0.7s;
+-moz-transition: 0.7s;
+transition: 0.7s;
+-webkit-transform: translate3d(0px,0px,0px);
+}
+.loadingPgae .shard-wrap {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  position: absolute; left:0; top:0;
+  z-index: 2;
+}
+.loadingPgae .animalfigure{width: 100%;  position: absolute; left:0; top:0;}
+.androidStyle .animalfigure{background: url(http://mat1.gtimg.com/v/h5/we15/images/renwu.png) no-repeat; background-size: 100%;}
+.androidStyle .light{ display: none}
+.androidStyle .loadingPgae .shard-wrap{ display: none}
+.loadingPgae .shard-wrap .shard {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 1s cubic-bezier(0.7, 0.3, 0, 1);
+  -moz-transition: 1s cubic-bezier(0.7, 0.3, 0, 1);
+  transition: 1s cubic-bezier(0.7, 0.3, 0, 1);
+}
+.loadingPgae .shard-wrap .shard {
+  -webkit-clip-path: polygon(0  0, 0 0, 0 0);
+  -moz-clip-path: polygon(0  0, 0 0, 0 0);
+  -webkit-clip-path: polygon(0  0, 0 0, 0 0);
+  background-color: #deec9d ;
+} 
+
+.loadingPgae .figure .shard-wrap .shard {
+  -webkit-clip-path: polygon(44.3% 10.8%, 45.4% 9.8% ,43% 12.1%);
+  -moz-clip-path: polygon(44.3% 10.8%, 45.4% 9.8% ,43% 12.1%);
+  -webkit-clip-path: polygon(44.3% 10.8%, 45.4% 9.8% ,43% 12.1%);
+  -webkit-transition:all 0.5s ease 1.6s; 
+  -moz-transition:all 0.5s ease 1.6s; 
+  transition:all 0.5s ease 1.6s; 
+} 
+
+.loadingPgae .light .shard-wrap1 .shard {
+  -webkit-clip-path: polygon(44.2% 10.5%, 44.9% 9.1% ,45.8% 11% ,44.1% 12.1%);
+  -moz-clip-path: polygon(44.2% 10.5%, 44.9% 9.1% ,45.8% 11% ,44.1% 12.1%);
+  clip-path:polygon(44.2% 10.5%, 44.9% 9.1% ,45.8% 11% ,44.1% 12.1%);
+  background-color: #deec9d ; 
+   -webkit-transition: 1s cubic-bezier(0.3, 0.3, 0, 1);
+  -moz-transition: 1s cubic-bezier(0.3, 0.3, 0, 1);
+  transition: 1s cubic-bezier(0.3, 0.3, 0, 1);
+  -webkit-transition:all 0.5s ease 1s; 
+}
+
+.animate .light .shard-wrap1 .shard{
+-webkit-clip-path: polygon(37.2% 10.5%, 45.9% 9.1% ,90.8% 83.9% ,16.1% 84.1%);
+  -moz-clip-path: polygon(37.2% 10.5%, 45.9% 9.1% ,90.8% 83.9% ,16.1% 84.1%);
+  clip-path:polygon(37.2% 10.5%, 45.9% 9.1% ,90.8% 83.9% ,16.1% 84.1%);
+  background-color: #fff59d;
+  -webkit-transition:all 1s ease 0.9s; 
+  -moz-transition:all 1s ease 0.9s; 
+
+}
+
+.animate .figure .shard-wrap1 .shard {
+  -webkit-clip-path: polygon(49.3% 31.8%, 51.4% 29.8% ,53% 36.1%);
+  -moz-clip-path: polygon(49.3% 31.8%, 51.4% 29.8% ,53% 36.1%);
+  clip-path: polygon(49.3% 31.8%, 51.4% 29.8% ,53% 36.1%);
+  background-color: #e6a433;  
+  -webkit-transition:all 0.5s ease 1.62s; 
+  
+}
+.animate .figure .shard-wrap2 .shard {
+  -webkit-clip-path: polygon(51.4% 29.8%, 57.9% 39.6%, 48.7% 41%);
+  -moz-clip-path:polygon(51.4% 29.8%, 57.9% 39.6%, 48.7% 41%);
+  clip-path: polygon(51.4% 29.8%, 57.9% 39.6%, 48.7% 41%);
+
+  background-color: #f6b342;  
+  -webkit-transition:all 0.5s ease 1.64s; 
+}
+.animate .figure .shard-wrap3 .shard {
+  -webkit-clip-path: polygon(51.4% 29.8%, 58% 30.3%, 57.3% 39.9%);
+  -moz-clip-path: polygon(51.4% 29.8%, 58% 30.3%, 57.3% 39.9%);
+  clip-path: polygon(51.4% 29.8%, 58% 30.3%, 57.3% 39.9%);
+  background-color: #f5b954; 
+  -webkit-transition:all 0.5s ease 1.66s; 
+}
+.animate.state-one .figure  .shard-wrap3 .shard {
+background-color: #ce881a;  
+-webkit-transition:all .5s ease 0s; 
+}
+.animate .figure .shard-wrap4 .shard {
+  -webkit-clip-path: polygon( 58% 30.3%, 59% 40.1%,54% 40.7%);
+  -moz-clip-path: polygon( 58% 30.3%, 59% 40.1%, 54% 40.7%);
+  clip-path: polygon( 58% 30.3%, 59% 40.1%, 54% 40.7%);
+  background-color: #dea037; 
+  -webkit-transition:all 0.5s ease 1.68s; 
+}
+.animate.state-one .figure  .shard-wrap4 .shard {
+background-color: #ce881a; 
+-webkit-transition:all .5s ease 0s;
+}
+.animate .figure  .shard-wrap5 .shard {
+  -webkit-clip-path: polygon(57% 37.3%, 58.3% 39.1%, 49.7% 40.5%);
+  -moz-clip-path:polygon(57% 37.3%, 58.3% 39.1%, 49.7% 40.5%);
+  clip-path:polygon(57% 37.3%, 58.3% 39.1%, 49.7% 40.5%);
+  background-color: #ce881a; 
+  -webkit-transition:all 0.5s ease 1.70s; 
+}
+
+.animate.state-one .figure  .shard-wrap5 .shard {
+background-color: #ce881a;  -webkit-transition:all .5s ease 0s; 
+}
+.animate .figure  .shard-wrap6 .shard {
+  -webkit-clip-path:polygon(47.3% 40.9%, 46.6% 54%, 41.4% 51.7%);
+  -moz-clip-path:polygon(47.3% 40.9%, 46.6% 54%, 41.4% 51.7%);
+  clip-path:polygon(47.3% 40.9%, 46.6% 54%, 41.4% 51.7%);
+  background-color: #f6b342; 
+  -webkit-transition:all 0.5s ease 1.70s; 
+}
+.animate .figure  .shard-wrap7 .shard {
+  -webkit-clip-path: polygon(46.6% 54%, 41.4% 51.7%, 35.4% 59.8% );
+  -moz-clip-path:polygon(46.6% 54%, 41.4% 51.7%, 35.4% 59.8% );
+  clip-path:polygon(46.6% 54%, 41.4% 51.7%, 35.4% 59.8% );
+  background-color: #e6a433; 
+  -webkit-transition:all 0.5s ease 1.72s; 
+}
+
+
+.animate.state-one .figure  .shard-wrap7 .shard {
+  -webkit-clip-path: polygon(46.6% 54%, 41.4% 51.7%, 38.4% 55.8%);
+  -moz-clip-path:polygon(46.6% 54%, 41.4% 51.7%,38.4% 55.8%);
+  clip-path:polygon(46.6% 54%, 41.4% 51.7%, 38.4% 55.8% );
+  background-color: #ffbf52; -webkit-transition:all 1s ease 0s; 
+}
+
+
+.animate .figure  .shard-wrap8 .shard {
+  -webkit-clip-path: polygon(61% 39%, 62.3% 63.7%, 46.3% 63.8%);
+  -moz-clip-path:polygon(61% 39%, 62.3% 63.7%, 46.3% 63.8%);
+  clip-path:polygon(61% 39%, 62.3% 63.7%, 46.3% 63.8%);
+  background-color: #f6b342; 
+  -webkit-transition:all 0.5s ease 1.74s; 
+}
+.animate.state-one .figure  .shard-wrap8 .shard {
+background-color: #ce881a; -webkit-transition:all .5s ease 0s; 
+}
+.animate .figure  .shard-wrap9 .shard {
+  -webkit-clip-path: polygon(46.6% 41%, 61% 38.8%, 50.9% 63.1% );
+  -moz-clip-path: polygon(46.6% 41%, 61% 38.8%, 50.9% 63.1% );
+  clip-path: polygon(46.6% 41%, 61% 38.8%, 50.9% 63.1% );
+  background-color: #ffbf52; 
+  -webkit-transition:all 0.5s ease 1.76s; 
+}
+
+.animate.state-one  .figure  .shard-wrap9 .shard {
+background-color: #fdc565;  -webkit-transition:all .5s ease 0s; 
+}
+.animate .figure  .shard-wrap10 .shard {
+  -webkit-clip-path: polygon(46.6% 41.3%, 51.9% 64% , 46.2% 63.8%);
+  -moz-clip-path:polygon(46.6% 41.3%, 51.9% 64% , 46.2% 63.8%);
+  clip-path:polygon(46.6% 41.3%, 51.9% 64% , 46.2% 63.8%);
+  background-color: #e6a433; 
+  -webkit-transition:all 0.5s ease 1.78s; 
+}
+.animate .figure  .shard-wrap11 .shard {
+  -webkit-clip-path: polygon(60.9% 39%, 66.3% 48.3%,61.7% 51%);
+  -moz-clip-path:polygon(60.9% 39%, 66.3% 48.3%,61.7% 51%);
+  clip-path:polygon(60.9% 39%, 66.3% 48.3%,61.7% 51%);
+  background-color: #f7b244; 
+  -webkit-transition:all 0.5s ease 1.80s; 
+}
+.animate .figure  .shard-wrap12 .shard {
+  -webkit-clip-path: polygon(61% 39%, 63% 47.3%, 61.5% 51%);
+  -moz-clip-path:polygon(61% 39%, 63% 47.3%, 61.5% 51%);
+  clip-path:polygon(61% 39%, 63% 47.3%, 61.5% 51%);
+  background-color: #ce881a; 
+   -webkit-transition:all 0.5s ease 1.80s; 
+}
+.animate .figure  .shard-wrap13 .shard {
+  -webkit-clip-path: polygon(66.1% 48.1%, 71.9% 56.6%, 61% 51%);
+  -moz-clip-path:polygon(66.1% 48.1%, 71.9% 56.6%, 61% 51%);
+  clip-path:polygon(66.1% 48.1%, 71.9% 56.6%, 61% 51%);
+  background-color: #e6a433; 
+   -webkit-transition:all 0.5s ease 1.82s; 
+}
+
+.animate.state-one  .figure  .shard-wrap13 .shard {
+  -webkit-clip-path: polygon(66.1% 48.1%, 69.9% 61.6%, 61% 51%);
+  -moz-clip-path:polygon(66.1% 48.1%, 69.9% 61.6%, 61% 51%);
+  clip-path:polygon(66.1% 48.1%, 69.9% 61.6%, 61% 51%);
+  background-color: #e6a433; -webkit-transition:all .5s ease 0s;
+}
+.animate .figure  .shard-wrap14 .shard {
+  -webkit-clip-path: polygon(46.1% 63.6%, 53.9% 63.6%, 50.9% 86.9%);
+  -moz-clip-path: polygon(46.1% 63.6%, 53.9.2% 63.6%, 50.9% 86.9%);
+  clip-path: polygon(46.1% 63.6%, 53.9.2% 63.6%, 50.9% 86.9%);
+  background-color: #3a3a66; 
+   -webkit-transition:all 0.5s ease 1.84s; 
+}
+.animate .figure  .shard-wrap15 .shard {
+  -webkit-clip-path: polygon(62.1% 63.6%, 59.4% 86.3%, 52.4% 63.7%);
+  -moz-clip-path:polygon(62.1% 63.6%, 59.4% 86.3%, 52.4% 63.7%);
+  clip-path:polygon(62.1% 63.6%, 59.4% 86.3%, 52.4% 63.7%);
+  background-color: #3a3a66; 
+   -webkit-transition:all 0.5s ease 1.86s; 
+}
+.animate .figure  .shard-wrap16 .shard {
+  -webkit-clip-path: polygon(46.3% 63.8%, 62.2% 63.9%, 53.2% 67.2%);
+  -moz-clip-path:polygon(46.3% 63.8%, 62.2% 63.9%, 53.2% 67.2%);
+  clip-path:polygon(46.3% 63.8%, 62.2% 63.9%, 53.2% 67.2%);
+  background-color: #070c1a; 
+   -webkit-transition:all 0.5s ease 1.88s; 
+}
+
+.animate .figure  .shard-wrap17 .shard {
+  -webkit-clip-path: polygon(47.8% 71.2%, 53% 79.2%, 47.7% 79.2%);
+  -moz-clip-path: polygon(47.8% 71.2%, 53% 79.2%, 47.7% 79.2%);
+  clip-path: polygon(47.8% 71.2%, 53% 79.2%, 47.7% 79.2%);
+  background-color: #53538b; 
+   -webkit-transition:all 0.5s ease 1.90s; 
+}
+.animate .figure  .shard-wrap18 .shard {
+  -webkit-clip-path: polygon(61% 71.1%, 61.4% 79.2%, 56.2% 79.3%);
+  -moz-clip-path:polygon(61% 71.1%, 61.4% 79.2%, 56.2% 79.3%);
+  clip-path:polygon(61% 71.1%, 61.4% 79.2%, 56.2% 79.3%);
+  background-color: #53538b; 
+   -webkit-transition:all 0.5s ease 1.92s; 
+}
+
+.animate .figure  .shard-wrap19 .shard {
+  -webkit-clip-path: polygon(50.9% 85.2%, 53% 90%, 47.7% 90%);
+  -moz-clip-path:polygon(50.9% 85.2%, 53% 90%, 47.7% 90%);
+  clip-path:polygon(50.9% 85.2%, 53% 90%, 47.7% 90%);
+  background-color: #070c1a; 
+   -webkit-transition:all 0.5s ease 1.94s; 
+}
+
+.animate .figure  .shard-wrap20 .shard {
+  -webkit-clip-path: polygon(59.4% 85.2%, 61.6% 90%, 56.2% 90%);
+  -moz-clip-path:polygon(59.4% 85.2%, 61.6% 90%, 56.2% 90%);
+  clip-path:polygon(59.4% 85.2%, 61.6% 90%, 56.2% 90%);
+  background-color: #070c1a; 
+   -webkit-transition:all 0.5s ease 1.96s; 
+}
+
+.animate .figure  .shard-wrap21 .shard {
+  -webkit-clip-path: polygon(47.7% 79.0%, 53% 79.2%, 50.8% 88.9%);
+  -moz-clip-path:polygon(47.7% 79.3%, 53% 79.2%, 50.8% 88.9%);
+  clip-path:polygon(47.7% 79.3%, 53% 79.2%, 50.8% 88.9%);
+  background-color: #070c1a; 
+   -webkit-transition:all 0.5s ease 1.98s; 
+}
+
+.animate .figure  .shard-wrap22 .shard {
+  -webkit-clip-path: polygon(56.2% 79.2%, 61.4% 79.0%, 59.4% 88.9%);
+  -moz-clip-path:polygon(56.2% 79.2%, 61.4% 79.2%, 59.4% 88.9%);
+  clip-path:polygon(56.2% 79.2%, 61.4% 79.2%, 59.4% 88.9%);
+  background-color: #070c1a; 
+   -webkit-transition:all 0.5s ease 2s; 
+}

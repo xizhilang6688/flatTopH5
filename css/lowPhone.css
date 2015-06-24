@@ -1,0 +1,74 @@
+.lowPhone .shard-wrap,.lowPhone .shadow{ display: none}
+.lowPhone .wrap{background-repeat: no-repeat;background-position:50% -100%;background-size:100% 100%;
+  -webkit-transition: 1s ease-out;-webkit-transform:translate(50%,50%);}
+
+.lowPhone .bear .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/bear1.png);background-position:40% 100%;background-size:60% 100%;-webkit-transform:translate(0%,0%);}
+.lowPhone .bearTwo .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/bear2.png);background-position:50% 100%;background-size:60% 100%;-webkit-transform:translate(0%,5%); }
+
+.lowPhone .valley .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/valley1.png);background-position:50% 100%;-webkit-transform:translate(0%,0%);}
+.lowPhone .valleyTwo .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/valley2.png);background-size:80% 100%; -webkit-transform:translate(0%,6%);}
+
+.lowPhone .seed .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/seed1.png);background-position:50% 100%;-webkit-transform:translate(0%,0%); }
+.lowPhone .seedTwo .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/seed2.png);background-position:50% 100%;-webkit-transform:translate(0%,0%);-webkit-transform:scale(1.2) }
+
+.lowPhone .snake .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/snake1.png);background-position:50% 100%;-webkit-transform:translate(0%,0%); }
+.lowPhone .snakeTwo .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/snake2.png);background-position:50% 100%;-webkit-transform:translate(0%,0%);-webkit-transform:scale(1.2) }
+
+.lowPhone .thunder .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/thunder1.png);background-position:50% 100%;-webkit-transform:translate(0%,0%); }
+.lowPhone .thunderTwo .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/thunder2.png);background-position:50% 100%;-webkit-transform:translate(0%,-5%); }
+
+.lowPhone .boating .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/boating1.png);background-position:50% 100%;-webkit-transform:translate(0%,0%); }
+.lowPhone .boatingTwo .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/boating2.png); background-size:80% 100%;-webkit-transform:translate(0%,15%);}
+
+.lowPhone .chef .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/chef1.png);background-position:50% 100%;-webkit-transform:translate(0%,0%); }
+.lowPhone .chefTwo .wrap{ background-image:url(http://mat1.gtimg.com/v/h5/we15/images/chef2.png);background-position:50% 100%;-webkit-transform:translate(0%,-5%);}
+
+/*title*/
+.lowPhone .title .triangle{ display: none}
+
+.lowPhone .title{ background-repeat: no-repeat; background-size: 100% 100%;}
+.lowPhone .bear .title,.lowPhone .bearTwo .title{background-image: url(http://mat1.gtimg.com/v/h5/we15/images/title_bg_bear.png);}
+.lowPhone .valley .title,.lowPhone .valleyTwo .title{background-image: url(http://mat1.gtimg.com/v/h5/we15/images/title_bg_valley.png);}
+.lowPhone .seed .title,.lowPhone .seedTwo .title{background-image: url(http://mat1.gtimg.com/v/h5/we15/images/title_bg_seed.png);}
+.lowPhone .snake .title,.lowPhone .snakeTwo .title{background-image: url(http://mat1.gtimg.com/v/h5/we15/images/title_bg_snake.png);}
+.lowPhone .thunder .title,.lowPhone .thunderTwo .title{background-image: url(http://mat1.gtimg.com/v/h5/we15/images/title_bg_thunder.png);}
+.lowPhone .boating .title,.lowPhone .boatingTwo .title{background-image: url(http://mat1.gtimg.com/v/h5/we15/images/title_bg_boating.png);}
+.lowPhone .chef .title,.lowPhone .chefTwo .title{background-image: url(http://mat1.gtimg.com/v/h5/we15/images/title_bg_chef.png);}
+
+/*changePanel*/
+.lowPhone .changePanel,.lowPhone .animal-animations-on.state-two .changePanel,.lowPhone .animal-animations-on.state-three .changePanel,.lowPhone .animal-animations-on.state-four .changePanel{
+	background-image: url(http://mat1.gtimg.com/v/h5/we15/images/swipeup.png);
+	background-position: 50% 99%;
+	background-repeat: no-repeat;
+	background-size: 35px 25px;
+  -webkit-clip-path: none;
+  background-color: rgba(255,255,255,0);
+   z-index: 4;
+   -webkit-animation: aniswipeup 2s infinite forwards;
+}
+
+.lowPhone .changePanelinner,.lowPhone .animal-animations-on.state-two .changePanelinner,.lowPhone .animal-animations-on.state-three .changePanelinner,.lowPhone .animal-animations-on.state-four .changePanelinner{
+  display:none;-webkit-clip-path: none;background-color: rgba(255,255,255,0);
+background-repeat: no-repeat;
+}
+
+
+@-webkit-keyframes aniswipeup {
+  0% {
+    background-position: 50% 99%; }
+  90% {
+    background-position: 50% 95%; }
+  100% {
+    background-position: 50% 99%; opacity: 0 }
+}
+
+.lowPhone .answerList:before,.lowPhone .answerList:after{-webkit-clip-path:none; }
+.lowPhone .answerList:before{-webkit-transform:rotate(5deg); width: 120%}
+.lowPhone .answerList:after{-webkit-transform:rotate(-5deg);width: 120%}
+
+.lowPhone .answerList li.current .checked:before{-webkit-clip-path:none;
+ background-image: url(http://mat1.gtimg.com/v/h5/we15/images/select.png);
+	background-position: 50% 48%;
+	background-repeat: no-repeat;background-color:transparent;
+	background-size: 30px 23px;}
+.lowPhone .answerList li.current .checked:after{-webkit-clip-path:none;background-color:transparent; }

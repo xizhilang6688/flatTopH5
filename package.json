@@ -1,0 +1,31 @@
+{
+  "name": "flatTop",
+  "title": "flatTop Webapp",
+  "version": "0.0.1",
+  "description": "http://u15.video.qq.com/webapp/flatTop",
+  "repository": {
+    "type": "svn",
+    "url": "http://bj-scm.tencent.com/video/video_Utopia_rep/utopia_proj/trunk/webapp/flatTop"
+  },
+  "keywords": [
+  ],
+  "author": {
+    "name": "dazhao",
+    "email": "dazhao@tencent.com",
+    "url": "http://zhaoda.net"
+  },
+  "homepage": "http://u15.video.qq.com/webapp/flatTop",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-jshint": "~0.11.2",
+    "grunt-contrib-copy": "~0.8.0",
+    "grunt-contrib-uglify": "~0.9.1",
+    "grunt-contrib-cssmin": "~0.12.3",
+    "grunt-http": "^1.4.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
